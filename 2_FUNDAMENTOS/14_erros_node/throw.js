@@ -1,0 +1,16 @@
+// O throw encerra a execução do programa
+
+const x = '10';
+
+//checar se x é um número
+if (!Number.isInteger(x)) {
+    throw new Error('O valor de x não é um número inteiro')
+};
+
+console.log('Continuando o código');
+
+// D:\workspace-node\estudos-node\2_FUNDAMENTOS\14_erros_node\throw.js:5
+//     throw new Error('O valor de x não é um número inteiro')
+//     ^
+
+// Error: O valor de x não é um número inteiro
