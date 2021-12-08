@@ -1,0 +1,12 @@
+<h1>Condicionais</h1>
+<h2>Sejam bem vindo {{user.name}} {{user.surname}}</h2>
+
+{{#if auth}}
+<p>
+    {{user.name}} voce está autenticado! <a href="/dashboard">Clique aqui</a> para acessar a área privada
+</p>
+{{else}}
+<p>
+    {{user.name}} Você precisa estar autenticar para continuar a navegação
+</p>
+{{/if}}
